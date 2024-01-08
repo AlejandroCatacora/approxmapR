@@ -1,9 +1,6 @@
 #Alejandro Catacora
 #Dec 25,2023
 #1.B : Calculate within Group
-library(tidyverse)
-library(approxmapR)
-library(stringdist)
 
 #use existing functions from your script
 extract_seqs <- function(pats) {

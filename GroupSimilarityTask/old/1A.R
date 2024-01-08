@@ -12,7 +12,7 @@ library(devtools)
 library(glue)
 library(tidyverse)
 
-
+#creating dataset on monthy employment status
 create_synthetic_dataset <- function(set_seed, num_individuals, events) {
   set.seed(set_seed)
   periods_per_individual <- sample(3:12, num_individuals, replace = TRUE)

@@ -45,7 +45,7 @@ library(tidyverse)
 Now that everything is installed and loaded, let's jump into the problem and the motivation for using approxmap. Let's say you have a dataset that looks like this:
 
 ```{r, echo=FALSE}
-data("mvad")
+data("demo")
 mvad
 ```
 

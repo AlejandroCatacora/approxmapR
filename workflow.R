@@ -1,7 +1,7 @@
 library(devtools)
 library(tidyverse)
 library(glue)
-load_all(".")
+load_all("/Users/catacora/Documents/PathsUp/approxmapR/DESCRIPTION")
 data("mvad")
 
 #http://web.cs.ucla.edu/~weiwang/paper/SDM03_2.pdf
